@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "org.dktalis";
+option java_outer_classname = "GetUsersMessageV1Proto";
+
+message GetUsersMessageV1 {
+  optional string id = 1;
+}
